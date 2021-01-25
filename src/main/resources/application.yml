@@ -1,14 +1,14 @@
 # Server properties
 server:
   servlet:
-    context-path: /tour-api
+    context-path: /taller-api
   port: 8888
 
 # Spring properties
 spring:
   # Dev is active by default. This value can be overwritten by java arg param
   profiles:
-    active: dev
+    active: heroku
   application:
     name: taller
   messages:
